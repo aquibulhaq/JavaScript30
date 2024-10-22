@@ -64,6 +64,7 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    console.table(people.toSorted((a, b) => a.split(', ', 1)[0].localeCompare(b.split(', ', 1)[0])));
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
